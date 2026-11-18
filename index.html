@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <!-- Pengaturan dasar: karakter, bahasa, dan tampilan di ponsel -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Judul tab browser dan deskripsi untuk mesin pencari -->
+  <title>Aisyah | Frontend Web Developer</title>
+  <meta name="description" content="Portofolio Aisyah, Frontend Web Developer yang membangun website modern, bersih, dan mudah digunakan.">
+
+  <!-- Ikon tab berupa emoji, tanpa file tambahan -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Font Poppins dari Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tautan ke file gaya -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Tautan untuk pengguna keyboard agar bisa langsung melompat ke konten -->
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+  <!-- ===== AREA MENU (atas) ===== -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="#home">Aisyah<span class="brand-dot" aria-hidden="true"></span></a>
+        <nav aria-label="Menu utama">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== AREA ISI UTAMA ===== -->
+  <main id="main">
+
+    <!-- ===== BAGIAN HOME ===== -->
+    <section id="home" class="section section--white">
+      <div class="container hero">
+
+        <!-- Teks perkenalan: sebelah kiri di komputer -->
+        <div class="hero-text">
+          <p class="hero-greeting">Halo, saya</p>
+          <h1 class="hero-name">Aisyah</h1>
+          <p class="hero-role">Frontend Web Developer</p>
+          <p class="hero-desc">Saya membangun website yang modern, bersih, dan mudah digunakan di komputer maupun ponsel. Saya senang mengubah desain menjadi tampilan yang hidup dan nyaman dilihat.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#projects">Lihat Proyek</a>
+            <a class="btn btn--outline" href="#contact">Hubungi Saya</a>
+          </div>
+        </div>
+
+        <!-- Foto profil: sebelah kanan di komputer -->
+        <div class="hero-photo">
+          <img class="profile-photo"
+               src="assets/images/profile.jpg"
+               alt="Foto profil Aisyah, Frontend Web Developer, tersenyum di depan latar polos"
+               width="320"
+               height="320">
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===== BAGIAN ABOUT ===== -->
+    <section id="about" class="section section--white">
+      <div class="container">
+
+        <!-- Judul dan pengantar: rata tengah, gaya dipakai ulang di bagian lain -->
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-intro">Berikut sedikit cerita tentang perjalanan, minat, dan cara saya belajar.</p>
+
+        <!-- Isi paragraf: dibatasi lebarnya dan berada di tengah -->
+        <div class="about-body">
+          <p><strong>Perkenalan diri.</strong> Nama saya Aisyah. Saya seorang Frontend Web Developer yang senang membangun tampilan website yang rapi dan mudah dipakai oleh siapa saja.</p>
+
+          <p><strong>Latar belakang pendidikan.</strong> Saya belajar di bidang teknologi informasi dan mulai mengenal HTML serta CSS saat masih kuliah. Dari sana, saya terus belajar secara mandiri melalui proyek kecil dan dokumentasi resmi.</p>
+
+          <p><strong>Minat di bidang teknologi.</strong> Saya tertarik pada desain antarmuka, animasi halus, dan tata letak yang responsif. Saya percaya website yang baik terasa nyaman di layar kecil maupun besar.</p>
+
+          <p><strong>Tujuan dan motivasi belajar.</strong> Saya ingin menjadi pengembang yang mampu mengubah ide desain menjadi produk yang berfungsi. Motivasi saya adalah melihat orang lain terbantu oleh website yang saya buat.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===== BAGIAN SKILLS ===== -->
+    <section id="skills" class="section section--soft">
+      <div class="container">
+
+        <!-- Judul dan pengantar: memakai gaya dari Tahap 5 -->
+        <h2 class="section-title">Keahlian Saya</h2>
+        <p class="section-intro">Beberapa keahlian utama yang saya gunakan untuk membangun website.</p>
+
+        <!-- Daftar kartu keahlian: tiga kolom dua baris di komputer -->
+        <ul class="skill-grid">
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">🧩</span>
+            <h3 class="skill-name">HTML5</h3>
+            <p class="skill-desc">Menyusun struktur halaman yang bermakna dan mudah dipahami mesin pencari.</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">🎨</span>
+            <h3 class="skill-name">CSS3</h3>
+            <p class="skill-desc">Mengatur warna, tata letak, dan animasi agar tampilan terasa rapi.</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">✏️</span>
+            <h3 class="skill-name">UI Design</h3>
+            <p class="skill-desc">Merancang antarmuka yang jelas, konsisten, dan nyaman digunakan.</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">📱</span>
+            <h3 class="skill-name">Responsive Design</h3>
+            <p class="skill-desc">Memastikan website tampil baik di ponsel, tablet, dan komputer.</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">🌿</span>
+            <h3 class="skill-name">Git dan GitHub</h3>
+            <p class="skill-desc">Mencatat riwayat perubahan kode dan menyimpannya dengan aman di GitHub.</p>
+          </li>
+
+          <li class="skill-card">
+            <span class="skill-icon" aria-hidden="true">🧠</span>
+            <h3 class="skill-name">Problem Solving</h3>
+            <p class="skill-desc">Menguraikan masalah kecil menjadi langkah yang jelas lalu menyelesaikannya.</p>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+
+    <!-- ===== BAGIAN PROJECTS ===== -->
+    <section id="projects" class="section section--white">
+      <div class="container">
+
+        <!-- Judul dan pengantar: memakai gaya dari Tahap 5 -->
+        <h2 class="section-title">Karya Saya</h2>
+        <p class="section-intro">Contoh proyek yang menggambarkan cara saya bekerja.</p>
+
+        <!-- Daftar kartu proyek: dua kolom di komputer -->
+        <div class="project-grid">
+
+          <!-- Proyek 1 -->
+          <article class="project-card">
+            <img class="project-img"
+                 src="assets/images/project-1.webp"
+                 alt="Tampilan halaman depan landing page kafe dengan foto kopi dan tombol pesan di bagian atas"
+                 width="600"
+                 height="220"
+                 loading="lazy">
+            <div class="project-body">
+              <h3 class="project-name">Landing Page Kafe</h3>
+              <p class="project-desc">Halaman promosi kafe yang ringan dan rapi, dengan menu dan informasi lokasi yang mudah ditemukan.</p>
+              <ul class="tag-list" aria-label="Teknologi yang dipakai">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+              </ul>
+              <div class="project-actions">
+                <!-- Tautan contoh: ganti href="#" dengan alamat asli nanti -->
+                <a class="btn btn--primary btn--sm" href="#">Demo</a>
+                <a class="btn btn--outline btn--sm" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Proyek 2 -->
+          <article class="project-card">
+            <img class="project-img"
+                 src="assets/images/project-2.jpg"
+                 alt="Tampilan katalog produk dalam bentuk kartu-kartu dengan gambar dan harga di setiap kartu"
+                 width="600"
+                 height="220"
+                 loading="lazy">
+            <div class="project-body">
+              <h3 class="project-name">Katalog Produk</h3>
+              <p class="project-desc">Katalog produk responsif yang menampilkan barang dalam kartu rapi di komputer maupun ponsel.</p>
+              <ul class="tag-list" aria-label="Teknologi yang dipakai">
+                <li class="tag">HTML5</li>
+                <li class="tag">CSS3</li>
+              </ul>
+              <div class="project-actions">
+                <!-- Tautan contoh: ganti href="#" dengan alamat asli nanti -->
+                <a class="btn btn--primary btn--sm" href="#">Demo</a>
+                <a class="btn btn--outline btn--sm" href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===== BAGIAN CONTACT ===== -->
+    <section id="contact" class="section section--soft">
+      <div class="container">
+
+        <!-- Judul dan ajakan: memakai gaya dari Tahap 5 -->
+        <h2 class="section-title">Hubungi Saya</h2>
+        <p class="section-intro">Punya ide, proyek, atau peluang kolaborasi? Mari berdiskusi.</p>
+
+        <!-- Empat kartu kontak: seluruh area kartu bisa diklik -->
+        <div class="contact-grid">
+
+          <!-- Email: membuka aplikasi email, tanpa tab baru -->
+          <a class="contact-card" href="mailto:aisyah@email.com">
+            <span class="contact-icon" aria-hidden="true">✉️</span>
+            <span class="contact-name">Email</span>
+            <span class="contact-handle">aisyah@email.com</span>
+            <span class="contact-cta">Kirim email →</span>
+          </a>
+
+          <!-- GitHub: tautan luar, dibuka di tab baru -->
+          <a class="contact-card" href="https://github.com/aisyah" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">🐙</span>
+            <span class="contact-name">GitHub</span>
+            <span class="contact-handle">@aisyah</span>
+            <span class="contact-cta">Kunjungi profil →</span>
+          </a>
+
+          <!-- LinkedIn: tautan luar, dibuka di tab baru -->
+          <a class="contact-card" href="https://www.linkedin.com/in/aisyahsalsa" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">💼</span>
+            <span class="contact-name">LinkedIn</span>
+            <span class="contact-handle">aisyahsalsa</span>
+            <span class="contact-cta">Kunjungi profil →</span>
+          </a>
+
+          <!-- Instagram: tautan luar, dibuka di tab baru -->
+          <a class="contact-card" href="https://www.instagram.com/aisyahsl" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">📸</span>
+            <span class="contact-name">Instagram</span>
+            <span class="contact-handle">@aisyahsl</span>
+            <span class="contact-cta">Kunjungi profil →</span>
+          </a>
+
+        </div>
+
+        <!-- Kotak ketersediaan -->
+        <div class="availability">
+          <p class="availability-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Status: aktif</span>
+          </p>
+          <h3 class="availability-title">Tersedia untuk magang dan freelance</h3>
+          <p class="availability-desc">Saya terbuka untuk proyek baru. Kirim pesan dan saya akan membalas secepatnya.</p>
+          <a class="btn btn--primary" href="mailto:aisyah@email.com">Kirim Email</a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+    <!-- ===== AREA PENUTUP (bawah) ===== -->
+    <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Aisyah. Hak cipta dilindungi.</p>
+      <p class="footer-note">Dibuat dengan HTML dan CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
